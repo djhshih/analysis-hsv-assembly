@@ -1,0 +1,241 @@
+##sequence-region GU734771.1 1 152151
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10298
+GU734771.1	Genbank	region	1	152151	.	+	.	ID=id0;Dbxref=taxon:10298;acronym=HSV-1;gb-synonym=Herpes simplex virus 1;gbkey=Src;genome=genomic;mol_type=genomic DNA;note=parental virus stock;strain=F
+GU734771.1	Genbank	repeat_region	1	9147	.	+	.	ID=id1;Note=TRL%3B inverted repeat flanking UL;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	1	364	.	+	.	ID=id2;Note='a' sequence;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	1	166	.	+	.	ID=id3;Note=de novo assembly contig~contig ID ssake5-blast4;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	85	307	.	+	.	ID=id4;Note=reiteration expanded in de novo assembly~contig ID NC_001806|'a'_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	85	307	.	+	.	ID=id5;Note='a' reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	253	1014	.	+	.	ID=id6;Note=de novo assembly contig~contig ID ssake9-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	487	1514	.	+	.	ID=gene0;Name=RL1;Note=HHV1gp001;gbkey=Gene;gene=RL1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	487	1233	.	+	0	ID=cds0;Parent=gene0;Dbxref=NCBI_GP:ADD60019.1;Name=ADD60019.1;gbkey=CDS;gene=RL1;product=neurovirulence protein ICP34.5;protein_id=ADD60019.1
+GU734771.1	Genbank	repeat_region	962	1014	.	+	.	ID=id7;Note=TRL reiteration set 6;gbkey=repeat_region;gene=RL1
+GU734771.1	Genbank	sequence_feature	980	4415	.	+	.	ID=id8;Note=de novo assembly contig~contig ID minimus1-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	2060	5654	.	+	.	ID=gene1;Name=RL2;Note=HHV1gp002;gbkey=Gene;gene=RL2;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	2236	2292	.	+	0	ID=cds1;Parent=gene1;Dbxref=NCBI_GP:ADD60020.1;Name=ADD60020.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60020.1
+GU734771.1	Genbank	CDS	3047	3713	.	+	0	ID=cds1;Parent=gene1;Dbxref=NCBI_GP:ADD60020.1;Name=ADD60020.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60020.1
+GU734771.1	Genbank	CDS	3867	5449	.	+	2	ID=cds1;Parent=gene1;Dbxref=NCBI_GP:ADD60020.1;Name=ADD60020.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60020.1
+GU734771.1	Genbank	repeat_region	2426	2585	.	+	.	ID=id9;Note=TRL reiteration set 5;gbkey=repeat_region;gene=RL2
+GU734771.1	Genbank	sequence_feature	4411	5770	.	+	.	ID=id10;Note=de novo assembly contig~contig ID minimus1-blast3;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	5688	5834	.	+	.	ID=id11;Note=reiteration expanded in de novo assembly~contig ID NC_001806|TRL_reiteration_set_4;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	5688	5834	.	+	.	ID=id12;Note=TRL reiteration set 4;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	5747	6525	.	+	.	ID=id13;Note=de novo assembly contig~contig ID minimus1-blast5;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	6516	7759	.	+	.	ID=id14;Note=de novo assembly contig~contig ID minimus2-blast1;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	7751	9026	.	+	.	ID=id15;Note=de novo assembly contig~contig ID minimus11-blast2;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	8503	8514	.	-	.	ID=id16;Note=TRL reiteration set 3;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	8742	8759	.	+	.	ID=id17;Note=TRL reiteration set 2;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	8967	9148	.	+	.	ID=id18;Note=reiteration expanded in de novo assembly~contig ID NC_001806|TRL_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	8967	9148	.	+	.	ID=id19;Note=TRL reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	9096	9264	.	+	.	ID=id20;Note=de novo assembly contig~contig ID minimus11-blast3;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	9190	13818	.	+	.	ID=id21;Note=de novo assembly contig~contig ID ssake7-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	9272	10883	.	+	.	ID=gene2;Name=UL1;Note=HHV1gp003;gbkey=Gene;gene=UL1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	9272	9946	.	+	0	ID=cds2;Parent=gene2;Dbxref=NCBI_GP:ADD60021.1;Name=ADD60021.1;gbkey=CDS;gene=UL1;product=envelope glycoprotein L;protein_id=ADD60021.1
+GU734771.1	Genbank	gene	9819	10883	.	+	.	ID=gene3;Name=UL2;Note=HHV1gp004;gbkey=Gene;gene=UL2;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	9819	10823	.	+	0	ID=cds3;Parent=gene3;Dbxref=NCBI_GP:ADD60022.1;Name=ADD60022.1;gbkey=CDS;gene=UL2;product=uracil-DNA glycosylase;protein_id=ADD60022.1
+GU734771.1	Genbank	gene	10892	11652	.	+	.	ID=gene4;Name=UL3;Note=HHV1gp006;gbkey=Gene;gene=UL3;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	10892	11599	.	+	0	ID=cds4;Parent=gene4;Dbxref=NCBI_GP:ADD60023.1;Name=ADD60023.1;gbkey=CDS;gene=UL3;product=nuclear protein UL3;protein_id=ADD60023.1
+GU734771.1	Genbank	gene	11685	15061	.	-	.	ID=gene5;Name=UL5;Note=HHV1gp010;gbkey=Gene;gene=UL5;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	12413	15061	.	-	0	ID=cds5;Parent=gene5;Dbxref=NCBI_GP:ADD59982.1;Name=ADD59982.1;gbkey=CDS;gene=UL5;product=helicase-primase helicase subunit;protein_id=ADD59982.1
+GU734771.1	Genbank	gene	11685	12352	.	-	.	ID=gene6;Name=UL4;Note=HHV1gp009;gbkey=Gene;gene=UL4;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	11753	12352	.	-	0	ID=cds6;Parent=gene6;Dbxref=NCBI_GP:ADD59983.1;Name=ADD59983.1;gbkey=CDS;gene=UL4;product=nuclear protein UL4;protein_id=ADD59983.1
+GU734771.1	Genbank	sequence_feature	13709	45003	.	+	.	ID=id22;Note=de novo assembly contig~contig ID minimus4-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	15060	17970	.	+	.	ID=gene7;Name=UL6;Note=HHV1gp011;gbkey=Gene;gene=UL6;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	15060	17090	.	+	0	ID=cds7;Parent=gene7;Dbxref=NCBI_GP:ADD60024.1;Name=ADD60024.1;gbkey=CDS;gene=UL6;product=capsid portal protein;protein_id=ADD60024.1
+GU734771.1	Genbank	gene	17065	17970	.	+	.	ID=gene8;Name=UL7;Note=HHV1gp012;gbkey=Gene;gene=UL7;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	17065	17955	.	+	0	ID=cds8;Parent=gene8;Dbxref=NCBI_GP:ADD60025.1;Name=ADD60025.1;gbkey=CDS;gene=UL7;product=tegument protein UL7;protein_id=ADD60025.1
+GU734771.1	Genbank	gene	18140	23184	.	-	.	ID=gene9;Name=UL9;Note=HHV1gp016;gbkey=Gene;gene=UL9;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	20629	23184	.	-	0	ID=cds9;Parent=gene9;Dbxref=NCBI_GP:ADD59984.1;Name=ADD59984.1;gbkey=CDS;gene=UL9;product=DNA replication origin-binding helicase;protein_id=ADD59984.1
+GU734771.1	Genbank	gene	18140	20406	.	-	.	ID=gene10;Name=UL8;Note=HHV1gp015;gbkey=Gene;gene=UL8;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	18154	20406	.	-	0	ID=cds10;Parent=gene10;Dbxref=NCBI_GP:ADD59985.1;Name=ADD59985.1;gbkey=CDS;gene=UL8;product=helicase-primase subunit;protein_id=ADD59985.1
+GU734771.1	Genbank	gene	23129	24573	.	+	.	ID=gene11;Name=UL10;Note=HHV1gp017;gbkey=Gene;gene=UL10;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	23129	24550	.	+	0	ID=cds11;Parent=gene11;Dbxref=NCBI_GP:ADD60026.1;Name=ADD60026.1;gbkey=CDS;gene=UL10;product=envelope glycoprotein M;protein_id=ADD60026.1
+GU734771.1	Genbank	gene	24721	28836	.	-	.	ID=gene12;Name=UL14;Note=HHV1gp022;gbkey=Gene;gene=UL14;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	28177	28836	.	-	0	ID=cds12;Parent=gene12;Dbxref=NCBI_GP:ADD59986.1;Name=ADD59986.1;gbkey=CDS;gene=UL14;product=tegument protein UL14;protein_id=ADD59986.1
+GU734771.1	Genbank	gene	24721	28612	.	-	.	ID=gene13;Name=UL13;Note=HHV1gp018;gbkey=Gene;gene=UL13;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	26867	28423	.	-	0	ID=cds13;Parent=gene13;Dbxref=NCBI_GP:ADD59987.1;Name=ADD59987.1;gbkey=CDS;gene=UL13;product=tegument serine/threonine protein kinase;protein_id=ADD59987.1
+GU734771.1	Genbank	sequence_alteration	28078	28078	.	+	.	ID=id23;Note=one base deletion found in plaque-purified isolate%3B results in frameshift and early termination;gbkey=variation;gene=UL13
+GU734771.1	Genbank	gene	24721	26968	.	-	.	ID=gene14;Name=UL12;Note=HHV1gp019;gbkey=Gene;gene=UL12;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	24928	26808	.	-	0	ID=cds14;Parent=gene14;Dbxref=NCBI_GP:ADD59988.1;Name=ADD59988.1;gbkey=CDS;gene=UL12;product=deoxyribonuclease;protein_id=ADD59988.1
+GU734771.1	Genbank	gene	24721	25423	.	-	.	ID=gene15;Name=UL11;Note=HHV1gp020;gbkey=Gene;gene=UL11;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	24722	25012	.	-	0	ID=cds15;Parent=gene15;Dbxref=NCBI_GP:ADD59989.1;Name=ADD59989.1;gbkey=CDS;gene=UL11;product=myristylated tegument protein;protein_id=ADD59989.1
+GU734771.1	Genbank	gene	28725	34744	.	+	.	ID=gene16;Name=UL15;Note=HHV1gp023;gbkey=Gene;gene=UL15;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	28940	29968	.	+	0	ID=cds16;Parent=gene16;Dbxref=NCBI_GP:ADD60027.1;Name=ADD60027.1;gbkey=CDS;gene=UL15;product=DNA packaging terminase subunit 1;protein_id=ADD60027.1
+GU734771.1	Genbank	CDS	33554	34732	.	+	0	ID=cds16;Parent=gene16;Dbxref=NCBI_GP:ADD60027.1;Name=ADD60027.1;gbkey=CDS;gene=UL15;product=DNA packaging terminase subunit 1;protein_id=ADD60027.1
+GU734771.1	Genbank	gene	30093	33585	.	-	.	ID=gene17;Name=UL17;Note=HHV1gp024;gbkey=Gene;gene=UL17;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	31306	33417	.	-	0	ID=cds17;Parent=gene17;Dbxref=NCBI_GP:ADD59990.1;Name=ADD59990.1;gbkey=CDS;gene=UL17;product=DNA packaging tegument protein UL17;protein_id=ADD59990.1
+GU734771.1	Genbank	gene	30093	31590	.	-	.	ID=gene18;Name=UL16;Note=HHV1gp025;gbkey=Gene;gene=UL16;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	30094	31215	.	-	0	ID=cds18;Parent=gene18;Dbxref=NCBI_GP:ADD59991.1;Name=ADD59991.1;gbkey=CDS;gene=UL16;product=tegument protein UL16;protein_id=ADD59991.1
+GU734771.1	Genbank	gene	34937	41404	.	-	.	ID=gene19;Name=UL20;Note=HHV1gp031;gbkey=Gene;gene=UL20;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	40736	41404	.	-	0	ID=cds19;Parent=gene19;Dbxref=NCBI_GP:ADD59992.1;Name=ADD59992.1;gbkey=CDS;gene=UL20;product=envelope protein UL20;protein_id=ADD59992.1
+GU734771.1	Genbank	gene	34937	40686	.	-	.	ID=gene20;Name=UL19;Note=HHV1gp028;gbkey=Gene;gene=UL19;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	36322	40446	.	-	0	ID=cds20;Parent=gene20;Dbxref=NCBI_GP:ADD59993.1;Name=ADD59993.1;gbkey=CDS;gene=UL19;product=major capsid protein;protein_id=ADD59993.1
+GU734771.1	Genbank	gene	34937	35968	.	-	.	ID=gene21;Name=UL18;Note=HHV1gp030;gbkey=Gene;gene=UL18;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	35012	35968	.	-	0	ID=cds21;Parent=gene21;Dbxref=NCBI_GP:ADD59994.1;Name=ADD59994.1;gbkey=CDS;gene=UL18;product=capsid triplex subunit 2;protein_id=ADD59994.1
+GU734771.1	Genbank	gene	41990	43611	.	+	.	ID=gene22;Name=UL21;Note=HHV1gp032;gbkey=Gene;gene=UL21;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	41990	43597	.	+	0	ID=cds22;Parent=gene22;Dbxref=NCBI_GP:ADD60028.1;Name=ADD60028.1;gbkey=CDS;gene=UL21;product=tegument protein UL21;protein_id=ADD60028.1
+GU734771.1	Genbank	gene	43741	46498	.	-	.	ID=gene23;Name=UL22;Note=HHV1gp033;gbkey=Gene;gene=UL22;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	43783	46299	.	-	0	ID=cds23;Parent=gene23;Dbxref=NCBI_GP:ADD59995.1;Name=ADD59995.1;gbkey=CDS;gene=UL22;product=envelope glycoprotein H;protein_id=ADD59995.1
+GU734771.1	Genbank	sequence_feature	44891	62065	.	+	.	ID=id24;Note=de novo assembly contig~contig ID minimus7-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	46525	47826	.	-	.	ID=gene24;Name=UL23;Note=HHV1gp034;gbkey=Gene;gene=UL23;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	46589	47719	.	-	0	ID=cds24;Parent=gene24;Dbxref=NCBI_GP:ADD59996.1;Name=ADD59996.1;gbkey=CDS;gene=UL23;product=thymidine kinase;protein_id=ADD59996.1
+GU734771.1	Genbank	gene	47654	48661	.	+	.	ID=gene25;Name=UL24;Note=HHV1gp035;gbkey=Gene;gene=UL24;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	47654	48463	.	+	0	ID=cds25;Parent=gene25;Dbxref=NCBI_GP:ADD60029.1;Name=ADD60029.1;gbkey=CDS;gene=UL24;product=nuclear protein UL24;protein_id=ADD60029.1
+GU734771.1	Genbank	gene	48730	52689	.	+	.	ID=gene26;Name=UL25;Note=HHV1gp036;gbkey=Gene;gene=UL25;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	48730	50472	.	+	0	ID=cds26;Parent=gene26;Dbxref=NCBI_GP:ADD60030.1;Name=ADD60030.1;gbkey=CDS;gene=UL25;product=DNA packaging tegument protein UL25;protein_id=ADD60030.1
+GU734771.1	Genbank	gene	50727	52689	.	+	.	ID=gene27;Name=UL26;Note=HHV1gp037;gbkey=Gene;gene=UL26;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	50727	52634	.	+	0	ID=cds27;Parent=gene27;Dbxref=NCBI_GP:ADD60031.1;Name=ADD60031.1;gbkey=CDS;gene=UL26;product=capsid maturation protease;protein_id=ADD60031.1
+GU734771.1	Genbank	gene	51645	52689	.	+	.	ID=gene28;Name=UL26.5;Note=HHV1gp038;gbkey=Gene;gene=UL26.5;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	51645	52634	.	+	0	ID=cds28;Parent=gene28;Dbxref=NCBI_GP:ADD60032.1;Name=ADD60032.1;gbkey=CDS;gene=UL26.5;product=capsid scaffold protein;protein_id=ADD60032.1
+GU734771.1	Genbank	gene	52974	58235	.	-	.	ID=gene29;Name=UL28;Note=HHV1gp040;gbkey=Gene;gene=UL28;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	55718	58075	.	-	0	ID=cds29;Parent=gene29;Dbxref=NCBI_GP:ADD59997.1;Name=ADD59997.1;gbkey=CDS;gene=UL28;product=DNA packaging terminase subunit 2;protein_id=ADD59997.1
+GU734771.1	Genbank	gene	52974	55996	.	-	.	ID=gene30;Name=UL27;Note=HHV1gp041;gbkey=Gene;gene=UL27;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	52996	55710	.	-	0	ID=cds30;Parent=gene30;Dbxref=NCBI_GP:ADD59998.1;Name=ADD59998.1;gbkey=CDS;gene=UL27;product=envelope glycoprotein B;protein_id=ADD59998.1
+GU734771.1	Genbank	gene	58325	61969	.	-	.	ID=gene31;Name=UL29;Note=HHV1gp41.5;gbkey=Gene;gene=UL29;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	58379	61969	.	-	0	ID=cds31;Parent=gene31;Dbxref=NCBI_GP:ADD59999.1;Name=ADD59999.1;gbkey=CDS;gene=UL29;product=single-stranded DNA-binding protein;protein_id=ADD59999.1
+GU734771.1	Genbank	sequence_feature	62059	71589	.	+	.	ID=id25;Note=de novo assembly contig~contig ID minimus3-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	62523	66471	.	+	.	ID=gene32;Name=UL30;Note=HHV1gp046;gbkey=Gene;gene=UL30;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	62725	66432	.	+	0	ID=cds32;Parent=gene32;Dbxref=NCBI_GP:ADD60033.1;Name=ADD60033.1;gbkey=CDS;gene=UL30;product=DNA polymerase catalytic subunit;protein_id=ADD60033.1
+GU734771.1	Genbank	gene	66295	69077	.	-	.	ID=gene33;Name=UL32;Note=HHV1gp049;gbkey=Gene;gene=UL32;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	67290	69077	.	-	0	ID=cds33;Parent=gene33;Dbxref=NCBI_GP:ADD60000.1;Name=ADD60000.1;gbkey=CDS;gene=UL32;product=DNA packaging protein UL32;protein_id=ADD60000.1
+GU734771.1	Genbank	gene	66295	67297	.	-	.	ID=gene34;Name=UL31;Note=HHV1gp048;gbkey=Gene;gene=UL31;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	66377	67297	.	-	0	ID=cds34;Parent=gene34;Dbxref=NCBI_GP:ADD60001.1;Name=ADD60001.1;gbkey=CDS;gene=UL31;product=nuclear egress lamina protein;protein_id=ADD60001.1
+GU734771.1	Genbank	gene	69076	70858	.	+	.	ID=gene35;Name=UL33;Note=HHV1gp050;gbkey=Gene;gene=UL33;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	69076	69468	.	+	0	ID=cds35;Parent=gene35;Dbxref=NCBI_GP:ADD60034.1;Name=ADD60034.1;gbkey=CDS;gene=UL33;product=DNA packaging protein UL33;protein_id=ADD60034.1
+GU734771.1	Genbank	gene	69548	70858	.	+	.	ID=gene36;Name=UL34;Note=HHV1gp051;gbkey=Gene;gene=UL34;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	69548	70375	.	+	0	ID=cds36;Parent=gene36;Dbxref=NCBI_GP:ADD60035.1;Name=ADD60035.1;gbkey=CDS;gene=UL34;product=nuclear egress membrane protein;protein_id=ADD60035.1
+GU734771.1	Genbank	gene	70481	70858	.	+	.	ID=gene37;Name=UL35;Note=HHV1gp052;gbkey=Gene;gene=UL35;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	70481	70819	.	+	0	ID=cds37;Parent=gene37;Dbxref=NCBI_GP:ADD60036.1;Name=ADD60036.1;gbkey=CDS;gene=UL35;product=small capsid protein;protein_id=ADD60036.1
+GU734771.1	Genbank	gene	70898	80443	.	-	.	ID=gene38;Name=UL36;Note=HHV1gp054;gbkey=Gene;gene=UL36;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	70964	80368	.	-	0	ID=cds38;Parent=gene38;Dbxref=NCBI_GP:ADD60002.1;Name=ADD60002.1;gbkey=CDS;gene=UL36;product=large tegument protein;protein_id=ADD60002.1
+GU734771.1	Genbank	repeat_region	71518	71728	.	+	.	ID=id26;Note=UL reiteration set;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	71518	71728	.	+	.	ID=id27;Note=reiteration expanded in de novo assembly~contig ID NC_001806|UL_reiteration_set;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	71693	117085	.	+	.	ID=id28;Note=de novo assembly contig~contig ID minimus6-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	80616	83988	.	-	.	ID=gene39;Name=UL37;Note=HHV1gp055;gbkey=Gene;gene=UL37;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	80617	83988	.	-	0	ID=cds39;Parent=gene39;Dbxref=NCBI_GP:ADD60003.1;Name=ADD60003.1;gbkey=CDS;gene=UL37;product=tegument protein UL37;protein_id=ADD60003.1
+GU734771.1	Genbank	gene	84427	85917	.	+	.	ID=gene40;Name=UL38;Note=HHV1gp056;gbkey=Gene;gene=UL38;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	84427	85824	.	+	0	ID=cds40;Parent=gene40;Dbxref=NCBI_GP:ADD60037.1;Name=ADD60037.1;gbkey=CDS;gene=UL38;product=capsid triplex subunit 1;protein_id=ADD60037.1
+GU734771.1	Genbank	gene	86113	90883	.	+	.	ID=gene41;Name=UL39;Note=HHV1gp057;gbkey=Gene;gene=UL39;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	86339	89752	.	+	0	ID=cds41;Parent=gene41;Dbxref=NCBI_GP:ADD60038.1;Name=ADD60038.1;gbkey=CDS;gene=UL39;product=ribonucleotide reductase subunit 1;protein_id=ADD60038.1
+GU734771.1	Genbank	gene	89668	90883	.	+	.	ID=gene42;Name=UL40;Note=HHV1gp058;gbkey=Gene;gene=UL40;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	89821	90843	.	+	0	ID=cds42;Parent=gene42;Dbxref=NCBI_GP:ADD60039.1;Name=ADD60039.1;gbkey=CDS;gene=UL40;product=ribonucleotide reductase subunit 2;protein_id=ADD60039.1
+GU734771.1	Genbank	gene	91011	92635	.	-	.	ID=gene43;Name=UL41;Note=HHV1gp060;gbkey=Gene;gene=UL41;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	91063	92532	.	-	0	ID=cds43;Parent=gene43;Dbxref=NCBI_GP:ADD60004.1;Name=ADD60004.1;gbkey=CDS;gene=UL41;product=tegument host shutoff protein;protein_id=ADD60004.1
+GU734771.1	Genbank	gene	92815	94534	.	+	.	ID=gene44;Name=UL42;Note=HHV1gp061;gbkey=Gene;gene=UL42;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	93008	94474	.	+	0	ID=cds44;Parent=gene44;Dbxref=NCBI_GP:ADD60040.1;Name=ADD60040.1;gbkey=CDS;gene=UL42;product=DNA polymerase processivity subunit;protein_id=ADD60040.1
+GU734771.1	Genbank	gene	94644	95965	.	+	.	ID=gene45;Name=UL43;Note=HHV1gp062;gbkey=Gene;gene=UL43;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	94696	95949	.	+	0	ID=cds45;Parent=gene45;Dbxref=NCBI_GP:ADD60041.1;Name=ADD60041.1;gbkey=CDS;gene=UL43;product=envelope protein UL43;protein_id=ADD60041.1
+GU734771.1	Genbank	gene	96069	98565	.	+	.	ID=gene46;Name=UL44;Note=HHV1gp063;gbkey=Gene;gene=UL44;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	96210	97745	.	+	0	ID=cds46;Parent=gene46;Dbxref=NCBI_GP:ADD60042.1;Name=ADD60042.1;gbkey=CDS;gene=UL44;product=envelope glycoprotein C;protein_id=ADD60042.1
+GU734771.1	Genbank	gene	97851	98565	.	+	.	ID=gene47;Name=UL45;Note=HHV1gp065;gbkey=Gene;gene=UL45;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	97930	98448	.	+	0	ID=cds47;Parent=gene47;Dbxref=NCBI_GP:ADD60043.1;Name=ADD60043.1;gbkey=CDS;gene=UL45;product=membrane protein UL45;protein_id=ADD60043.1
+GU734771.1	Genbank	gene	98623	103010	.	-	.	ID=gene48;Name=UL47;Note=HHV1gp067;gbkey=Gene;gene=UL47;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	100929	103010	.	-	0	ID=cds48;Parent=gene48;Dbxref=NCBI_GP:ADD60005.1;Name=ADD60005.1;gbkey=CDS;gene=UL47;product=tegument protein VP13/14;protein_id=ADD60005.1
+GU734771.1	Genbank	gene	98623	100892	.	-	.	ID=gene49;Name=UL46;Note=HHV1gp068;gbkey=Gene;gene=UL46;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	98693	100846	.	-	0	ID=cds49;Parent=gene49;Dbxref=NCBI_GP:ADD60006.1;Name=ADD60006.1;gbkey=CDS;gene=UL46;product=tegument protein VP11/12;protein_id=ADD60006.1
+GU734771.1	Genbank	gene	103431	105154	.	-	.	ID=gene50;Name=UL48;Note=HHV1gp070;gbkey=Gene;gene=UL48;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	103501	104973	.	-	0	ID=cds50;Parent=gene50;Dbxref=NCBI_GP:ADD60007.1;Name=ADD60007.1;gbkey=CDS;gene=UL48;product=transactivating tegument protein VP16;protein_id=ADD60007.1
+GU734771.1	Genbank	gene	105357	106890	.	-	.	ID=gene51;Name=UL49A;Note=HHV1gp073;gbkey=Gene;gene=UL49A;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	106615	106890	.	-	0	ID=cds51;Parent=gene51;Dbxref=NCBI_GP:ADD60008.1;Name=ADD60008.1;gbkey=CDS;gene=UL49A;product=envelope glycoprotein N;protein_id=ADD60008.1
+GU734771.1	Genbank	gene	105357	106287	.	-	.	ID=gene52;Name=UL49;Note=HHV1gp072;gbkey=Gene;gene=UL49;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	105382	106287	.	-	0	ID=cds52;Parent=gene52;Dbxref=NCBI_GP:ADD60009.1;Name=ADD60009.1;gbkey=CDS;gene=UL49;product=tegument protein VP22;protein_id=ADD60009.1
+GU734771.1	Genbank	gene	106907	108054	.	+	.	ID=gene53;Name=UL50;Note=HHV1gp074;gbkey=Gene;gene=UL50;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	106907	108022	.	+	0	ID=cds53;Parent=gene53;Dbxref=NCBI_GP:ADD60044.1;Name=ADD60044.1;gbkey=CDS;gene=UL50;product=deoxyuridine triphosphatase;protein_id=ADD60044.1
+GU734771.1	Genbank	gene	108173	108908	.	-	.	ID=gene54;Name=UL51;Note=HHV1gp075;gbkey=Gene;gene=UL51;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	108174	108908	.	-	0	ID=cds54;Parent=gene54;Dbxref=NCBI_GP:ADD60010.1;Name=ADD60010.1;gbkey=CDS;gene=UL51;product=tegument protein UL51;protein_id=ADD60010.1
+GU734771.1	Genbank	gene	108945	113339	.	+	.	ID=gene55;Name=UL52;Note=HHV1gp076;gbkey=Gene;gene=UL52;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	108945	112115	.	+	0	ID=cds55;Parent=gene55;Dbxref=NCBI_GP:ADD60045.1;Name=ADD60045.1;gbkey=CDS;gene=UL52;product=helicase-primase primase subunit;protein_id=ADD60045.1
+GU734771.1	Genbank	gene	112070	113339	.	+	.	ID=gene56;Name=UL53;Note=HHV1gp077;gbkey=Gene;gene=UL53;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	112070	113086	.	+	0	ID=cds56;Parent=gene56;Dbxref=NCBI_GP:ADD60046.1;Name=ADD60046.1;gbkey=CDS;gene=UL53;product=envelope glycoprotein K;protein_id=ADD60046.1
+GU734771.1	Genbank	gene	113487	115173	.	+	.	ID=gene57;Name=UL54;Note=HHV1gp079;gbkey=Gene;gene=UL54;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	113625	115163	.	+	0	ID=cds57;Parent=gene57;Dbxref=NCBI_GP:ADD60047.1;Name=ADD60047.1;gbkey=CDS;gene=UL54;product=multifunctional expression regulator;protein_id=ADD60047.1
+GU734771.1	Genbank	gene	115387	115992	.	+	.	ID=gene58;Name=UL55;Note=HHV1gp080;gbkey=Gene;gene=UL55;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	115387	115947	.	+	0	ID=cds58;Parent=gene58;Dbxref=NCBI_GP:ADD60048.1;Name=ADD60048.1;gbkey=CDS;gene=UL55;product=nuclear protein UL55;protein_id=ADD60048.1
+GU734771.1	Genbank	gene	116085	116814	.	-	.	ID=gene59;Name=UL56;Note=HHV1gp081;gbkey=Gene;gene=UL56;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	116110	116814	.	-	0	ID=cds59;Parent=gene59;Dbxref=NCBI_GP:ADD60011.1;Name=ADD60011.1;gbkey=CDS;gene=UL56;product=membrane protein UL56;protein_id=ADD60011.1
+GU734771.1	Genbank	repeat_region	117047	117228	.	-	.	ID=id29;Note=IRL reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	117047	117228	.	+	.	ID=id30;Note=reiteration expanded in de novo assembly~contig ID NC_001806|IRL_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	117048	126196	.	-	.	ID=id31;Note=IRL%3B inverted repeat flanking UL;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	117171	118446	.	+	.	ID=id32;Note=de novo assembly contig~contig ID minimus11-blast1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	117438	117455	.	-	.	ID=id33;Note=IRL reiteration set 2;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	117664	117694	.	-	.	ID=id34;Note=IRL reiteration set 3;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	118438	119681	.	+	.	ID=id35;Note=de novo assembly contig~contig ID minimus2-blast2;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	119672	120450	.	+	.	ID=id36;Note=de novo assembly contig~contig ID minimus1-blast6;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	120363	120509	.	-	.	ID=id37;Note=IRL reiteration set 4;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	120363	120509	.	+	.	ID=id38;Note=reiteration expanded in de novo assembly~contig ID NC_001806|IRL_reiteration_set_4;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	120427	121786	.	+	.	ID=id39;Note=de novo assembly contig~contig ID minimus1-blast4;gbkey=misc_feature
+GU734771.1	Genbank	gene	120543	124137	.	-	.	ID=gene60;Name=RL2;Note=HHV1gp082;gbkey=Gene;gene=RL2;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	123906	123962	.	-	0	ID=cds60;Parent=gene60;Dbxref=NCBI_GP:ADD60012.1;Name=ADD60012.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60012.1
+GU734771.1	Genbank	CDS	122485	123151	.	-	0	ID=cds60;Parent=gene60;Dbxref=NCBI_GP:ADD60012.1;Name=ADD60012.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60012.1
+GU734771.1	Genbank	CDS	120749	122331	.	-	2	ID=cds60;Parent=gene60;Dbxref=NCBI_GP:ADD60012.1;Name=ADD60012.1;gbkey=CDS;gene=RL2;product=ubiquitin E3 ligase ICP0;protein_id=ADD60012.1
+GU734771.1	Genbank	repeat_region	123612	123767	.	-	.	ID=id40;Note=IRL reiteration set 5;gbkey=repeat_region;gene=RL2
+GU734771.1	Genbank	sequence_feature	121782	125217	.	+	.	ID=id41;Note=de novo assembly contig~contig ID minimus1-blast2;gbkey=misc_feature
+GU734771.1	Genbank	gene	124684	125711	.	-	.	ID=gene61;Name=RL1;Note=HHV1gp083;gbkey=Gene;gene=RL1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	124965	125711	.	-	0	ID=cds61;Parent=gene61;Dbxref=NCBI_GP:ADD60013.1;Name=ADD60013.1;gbkey=CDS;gene=RL1;product=neurovirulence protein ICP34.5;protein_id=ADD60013.1
+GU734771.1	Genbank	repeat_region	125183	125235	.	-	.	ID=id42;Note=IRL reiteration set 6;gbkey=repeat_region;gene=RL1
+GU734771.1	Genbank	sequence_feature	125183	125955	.	+	.	ID=id43;Note=de novo assembly contig~contig ID ssake9-blast2;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	125833	132466	.	+	.	ID=id44;Note=IRS%3B inverted repeat flanking US;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	125833	126196	.	-	.	ID=id45;Note='a' sequence;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	125890	126112	.	-	.	ID=id46;Note='a' reiteration set 2;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	125890	126112	.	+	.	ID=id47;Note=reiteration expanded in de novo assembly~contig ID NC_001806|'a'_reiteration_set_2;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	126031	126461	.	+	.	ID=id48;Note=de novo assembly contig~contig ID ssake5-blast1;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	126434	126572	.	+	.	ID=id49;Note=reiteration expanded in de novo assembly~contig ID NC_001806|IRS_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	126434	126572	.	+	.	ID=id50;Note=IRS reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	126492	126716	.	+	.	ID=id51;Note=de novo assembly contig~contig ID minimus5-blast6;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	126674	127006	.	+	.	ID=id52;Note=reiteration expanded in de novo assembly~contig ID NC_001806|IRS_reiteration_set_2;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	126674	127006	.	+	.	ID=id53;Note=IRS reiteration set 2;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	126964	132286	.	+	.	ID=id54;Note=de novo assembly contig~contig ID minimus5-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	127036	131333	.	-	.	ID=gene62;Name=RS1;Note=HHV1gp084;gbkey=Gene;gene=RS1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	127098	131006	.	-	0	ID=cds62;Parent=gene62;Dbxref=NCBI_GP:ADD60014.1;Name=ADD60014.1;gbkey=CDS;gene=RS1;product=transcriptional regulator ICP4;protein_id=ADD60014.1
+GU734771.1	Genbank	gene	131973	133822	.	+	.	ID=gene63;Name=US1;Note=HHV1gp085;gbkey=Gene;gene=US1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	132507	133769	.	+	0	ID=cds63;Parent=gene63;Dbxref=NCBI_GP:ADD60049.1;Name=ADD60049.1;gbkey=CDS;gene=US1;product=regulatory protein ICP22;protein_id=ADD60049.1
+GU734771.1	Genbank	sequence_feature	132250	132375	.	+	.	ID=id55;Note=reiteration expanded in de novo assembly~contig ID NC_001806|IRS_reiteration_set_3;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	132339	132466	.	+	.	ID=id56;Note=de novo assembly contig~contig ID minimus5-blast9;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	132250	132375	.	+	.	ID=id57;Note=IRS reiteration set 3;gbkey=repeat_region;gene=US1
+GU734771.1	Genbank	sequence_feature	132413	135455	.	+	.	ID=id58;Note=de novo assembly contig~contig ID minimus8-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	133885	135194	.	-	.	ID=gene64;Name=US2;Note=HHV1gp087;gbkey=Gene;gene=US2;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	133914	134789	.	-	0	ID=cds64;Parent=gene64;Dbxref=NCBI_GP:ADD60015.1;Name=ADD60015.1;gbkey=CDS;gene=US2;product=virion protein US2;protein_id=ADD60015.1
+GU734771.1	Genbank	gene	134795	137392	.	+	.	ID=gene65;Name=US3;Note=HHV1gp089;gbkey=Gene;gene=US3;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	135083	136528	.	+	0	ID=cds65;Parent=gene65;Dbxref=NCBI_GP:ADD60050.1;Name=ADD60050.1;gbkey=CDS;gene=US3;product=serine/threonine protein kinase US3;protein_id=ADD60050.1
+GU734771.1	Genbank	sequence_feature	135378	137887	.	+	.	ID=id59;Note=de novo assembly contig~contig ID minimus10-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	136563	137392	.	+	.	ID=gene66;Name=US4;Note=HHV1gp091;gbkey=Gene;gene=US4;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	136605	137321	.	+	0	ID=cds66;Parent=gene66;Dbxref=NCBI_GP:ADD60051.1;Name=ADD60051.1;gbkey=CDS;gene=US4;product=envelope glycoprotein G;protein_id=ADD60051.1
+GU734771.1	Genbank	gene	137457	140910	.	+	.	ID=gene67;Name=US5;Note=HHV1gp094;gbkey=Gene;gene=US5;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	137592	137870	.	+	0	ID=cds67;Parent=gene67;Dbxref=NCBI_GP:ADD60052.1;Name=ADD60052.1;gbkey=CDS;gene=US5;product=envelope glycoprotein J;protein_id=ADD60052.1
+GU734771.1	Genbank	sequence_feature	137873	140931	.	+	.	ID=id60;Note=de novo assembly contig~contig ID minimus9-blast1;gbkey=misc_feature
+GU734771.1	Genbank	gene	138171	140910	.	+	.	ID=gene68;Name=US6;Note=HHV1gp096;gbkey=Gene;gene=US6;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	138281	139465	.	+	0	ID=cds68;Parent=gene68;Dbxref=NCBI_GP:ADD60053.1;Name=ADD60053.1;gbkey=CDS;gene=US6;product=envelope glycoprotein D;protein_id=ADD60053.1
+GU734771.1	Genbank	gene	139530	140910	.	+	.	ID=gene69;Name=US7;Note=HHV1gp098;gbkey=Gene;gene=US7;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	139647	140819	.	+	0	ID=cds69;Parent=gene69;Dbxref=NCBI_GP:ADD60054.1;Name=ADD60054.1;gbkey=CDS;gene=US7;product=envelope glycoprotein I;protein_id=ADD60054.1
+GU734771.1	Genbank	sequence_feature	140920	143626	.	+	.	ID=id61;Note=de novo assembly contig~contig ID minimus5-blast3;gbkey=misc_feature
+GU734771.1	Genbank	gene	141001	143561	.	+	.	ID=gene70;Name=US8;Note=HHV1gp101;gbkey=Gene;gene=US8;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	141105	142763	.	+	0	ID=cds70;Parent=gene70;Dbxref=NCBI_GP:ADD60055.1;Name=ADD60055.1;gbkey=CDS;gene=US8;product=envelope glycoprotein E;protein_id=ADD60055.1
+GU734771.1	Genbank	gene	142612	143561	.	+	.	ID=gene71;Name=US8A;Note=HHV1gp102;gbkey=Gene;gene=US8A;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	142612	143091	.	+	0	ID=cds71;Parent=gene71;Dbxref=NCBI_GP:ADD60056.1;Name=ADD60056.1;gbkey=CDS;gene=US8A;product=membrane protein US8A;protein_id=ADD60056.1
+GU734771.1	Genbank	gene	143087	143561	.	+	.	ID=gene72;Name=US9;Note=HHV1gp104;gbkey=Gene;gene=US9;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	143181	143453	.	+	0	ID=cds72;Parent=gene72;Dbxref=NCBI_GP:ADD60057.1;Name=ADD60057.1;gbkey=CDS;gene=US9;product=membrane protein US9;protein_id=ADD60057.1
+GU734771.1	Genbank	repeat_region	143579	143731	.	+	.	ID=id62;Note=US reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	143579	143731	.	+	.	ID=id63;Note=reiteration expanded in de novo assembly~contig ID NC_001806|US_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	143684	145480	.	+	.	ID=id64;Note=de novo assembly contig~contig ID minimus5-blast4;gbkey=misc_feature
+GU734771.1	Genbank	gene	143988	146011	.	-	.	ID=gene73;Name=US12;Note=HHV1gp106;gbkey=Gene;gene=US12;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	145152	145418	.	-	0	ID=cds73;Parent=gene73;Dbxref=NCBI_GP:ADD60016.1;Name=ADD60016.1;gbkey=CDS;gene=US12;product=TAP transporter inhibitor ICP47;protein_id=ADD60016.1
+GU734771.1	Genbank	repeat_region	145563	145732	.	-	.	ID=id65;Note=TRS reiteration set 3;gbkey=repeat_region;gene=US12
+GU734771.1	Genbank	gene	143988	145331	.	-	.	ID=gene74;Name=US11;Note=HHV1gp107;gbkey=Gene;gene=US11;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	144630	145088	.	-	0	ID=cds74;Parent=gene74;Dbxref=NCBI_GP:ADD60017.1;Name=ADD60017.1;gbkey=CDS;gene=US11;product=tegument protein US11;protein_id=ADD60017.1
+GU734771.1	Genbank	gene	143988	145036	.	-	.	ID=gene75;Name=US10;Note=HHV1gp108;gbkey=Gene;gene=US10;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	144026	144937	.	-	0	ID=cds75;Parent=gene75;Dbxref=NCBI_GP:ADD60018.1;Name=ADD60018.1;gbkey=CDS;gene=US10;product=virion protein US10;protein_id=ADD60018.1
+GU734771.1	Genbank	sequence_feature	145471	145599	.	+	.	ID=id66;Note=de novo assembly contig~contig ID minimus5-blast8;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	145472	152150	.	-	.	ID=id67;Note=TRS%3B inverted repeat flanking US;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	145563	145732	.	+	.	ID=id68;Note=reiteration expanded in de novo assembly~contig ID NC_001806|TRS_reiteration_set_3;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	145696	151018	.	+	.	ID=id69;Note=de novo assembly contig~contig ID minimus5-blast2;gbkey=misc_feature
+GU734771.1	Genbank	gene	146651	150948	.	+	.	ID=gene76;Name=RS1;Note=HHV1gp113;gbkey=Gene;gene=RS1;gene_biotype=protein_coding
+GU734771.1	Genbank	CDS	146978	150886	.	+	0	ID=cds76;Parent=gene76;Dbxref=NCBI_GP:ADD60058.1;Name=ADD60058.1;gbkey=CDS;gene=RS1;product=transcriptional regulator ICP4;protein_id=ADD60058.1
+GU734771.1	Genbank	sequence_feature	150976	151308	.	+	.	ID=id70;Note=reiteration expanded in de novo assembly~contig ID NC_001806|TRS_reiteration_set_2;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	150976	151308	.	-	.	ID=id71;Note=TRS reiteration set 2;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	151266	151490	.	+	.	ID=id72;Note=de novo assembly contig~contig ID minimus5-blast7;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	151410	151548	.	+	.	ID=id73;Note=reiteration expanded in de novo assembly~contig ID NC_001806|TRS_reiteration_set_1;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	151410	151548	.	-	.	ID=id74;Note=TRS reiteration set 1;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	151521	151951	.	+	.	ID=id75;Note=de novo assembly contig~contig ID ssake5-blast2;gbkey=misc_feature
+GU734771.1	Genbank	repeat_region	151786	152150	.	+	.	ID=id76;Note='a' sequence;gbkey=repeat_region
+GU734771.1	Genbank	repeat_region	151870	152093	.	+	.	ID=id77;Note='a' reiteration set 3;gbkey=repeat_region
+GU734771.1	Genbank	sequence_feature	151870	152093	.	+	.	ID=id78;Note=reiteration expanded in de novo assembly~contig ID NC_001806|'a'_reiteration_set_3;gbkey=misc_feature
+GU734771.1	Genbank	sequence_feature	152028	152150	.	+	.	ID=id79;Note=de novo assembly contig~contig ID ssake9-blast3;gbkey=misc_feature
