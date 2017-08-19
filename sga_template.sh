@@ -1,4 +1,5 @@
 #!/bin/bash -x
+set -euo pipefail
 
 # Input fastq reads
 IN1=
@@ -29,9 +30,12 @@ CPU=1
 # In fact, most GAGE-B HiSeq 100 bp libraries were assembled with M=45 and A=45,
 # only K differed between libraries.
 # It would be prudent to try different values of K.
+# 65 was too high => [sga correct] Error k-mer threshold learning failed
+# 55 was too high => [sga correct] Warning: Proportion of kmers greater than
+# the chosen threshold is less than 0.75
 
 # Correction k-mer 
-CORRECTION_K=65
+CORRECTION_K=41
 
 # The minimum overlap to use when computing the graph.
 # The final assembly can be performed with this overlap or greater

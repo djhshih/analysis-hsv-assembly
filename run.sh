@@ -19,5 +19,5 @@ for sample in $(cat samples.txt); do
 	#./masurca.sh $sample
 
 	# depends: bam2fastq
-	#./sga.sh $sample
+	./sga.sh $sample
 done
