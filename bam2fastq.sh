@@ -16,8 +16,8 @@ fastq1=$outdir/${fstem}_R1.fastq
 fastq2=$outdir/${fstem}_R2.fastq
 
 # extract reads using picard
-picard SamToFastq I=$inbam FASTQ=$fastq1 SECOND_END_FASTQ=$fastq2 \
-	2>&1 | picard-samtofastq_${fstem}.log
+picard SamToFastq I=$inbam FASTQ=$fastq1 SECOND_END_FASTQ=$fastq2 2>&1 \
+	| picard-samtofastq_${fstem}.log
 
 # gzip the fastq files
 gzip $fastq1
