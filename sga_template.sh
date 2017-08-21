@@ -33,6 +33,7 @@ CPU=1
 # 65 was too high => [sga correct] Error k-mer threshold learning failed
 # 55 was too high => [sga correct] Warning: Proportion of kmers greater than
 # the chosen threshold is less than 0.75
+# Author jts recommends that TRIM_LENGTH=400 for 150 bp reads.
 
 # Correction k-mer 
 CORRECTION_K=41
@@ -45,7 +46,7 @@ MIN_OVERLAP=45
 ASSEMBLE_OVERLAP=45
 
 # Branch trim length
-TRIM_LENGTH=150
+TRIM_LENGTH=400
 
 # The minimum length of contigs to include in a scaffold
 MIN_CONTIG_LENGTH=200
