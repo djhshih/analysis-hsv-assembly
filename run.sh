@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#./list-samples.sh input
+
 for sample in $(cat samples.txt); do
 	echo $sample
 
@@ -19,5 +21,20 @@ for sample in $(cat samples.txt); do
 	#./masurca.sh $sample
 
 	# depends: bam2fastq
-	./sga.sh $sample
+	#./sga.sh $sample
+
+	# depends: masurca
+	#./blast-masurca-scaffolds.sh $sample
+
+	# depends: bam2fastq_unmapped
+	#./align-unmapped-to-lacz.sh $sample
+
+	# depends: bam2fastq
+	#./align-unmapped-to-lacz.sh $sample
+	
+	# depends: bam2fastq
+	#./filter-reads.sh $sample
+	
+	# dpends: filter-reads
+	./masurca-filtered.sh $sample
 done
