@@ -8,6 +8,8 @@ for sample in $(cat samples.txt); do
 	bam=input/${sample}.sorted.bam
 	unmapped=unmapped/${sample}.unmapped.bam
 
+	./revertbam.sh $bam ubam
+
 	#./fastqc.sh $sample
 
 	#./cutadapt.sh $sample
@@ -58,6 +60,6 @@ for sample in $(cat samples.txt); do
 	#./sga-clean.sh $sample
 
 	# depends: sga
-	./quast-sga.sh $sample
+	#./quast-sga.sh $sample
 
 done
