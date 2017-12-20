@@ -4,7 +4,7 @@
 
 sample=$1
 
-indir=sga/example/${sample}
+indir=sga/trimmed/${sample}
 
-rm $indir/{.pp.*,.ec.*,libPE.*,primary-contigs.fa.*}
+rm $indir/{*.pp.*,*.ec.*,libPE.*,primary-contigs.fa.*}
 

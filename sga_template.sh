@@ -34,16 +34,18 @@ CPU=1
 # 55 was too high => [sga correct] Warning: Proportion of kmers greater than
 # the chosen threshold is less than 0.75
 # Author jts recommends that TRIM_LENGTH=400 for 150 bp reads.
+# Based on testing, the settings jts recommands for 150 bp reads produce
+# longer and fewer contigs, with higher N50.
 
 # Correction k-mer 
 CORRECTION_K=41
 
 # The minimum overlap to use when computing the graph.
 # The final assembly can be performed with this overlap or greater
-MIN_OVERLAP=45
+MIN_OVERLAP=85
 
 # The overlap value to use for the final assembly
-ASSEMBLE_OVERLAP=45
+ASSEMBLE_OVERLAP=111
 
 # Branch trim length
 TRIM_LENGTH=400

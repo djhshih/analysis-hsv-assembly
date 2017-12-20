@@ -11,8 +11,8 @@ template=sga_template.sh
 # use last tag in sample name as code
 sample_code=${sample##*_}
 
-indir=fastq
-outdir=sga/${sample}
+indir=cutadapt
+outdir=sga/trimmed/${sample}
 
 fastq_r1=$(readlink -f ${indir}/${sample}_R1.fastq.gz)
 fastq_r2=$(readlink -f ${indir}/${sample}_R2.fastq.gz)

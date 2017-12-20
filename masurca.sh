@@ -14,8 +14,9 @@ insert_stats=$(sed -n '8p'  picard/insert-size/${sample}_insert-size_metrics.txt
 # use last tag in sample name as code
 sample_code=${sample##*_}
 
-fastq_r1=$(readlink -f fastq/${sample}_R1_001.fastq.gz)
-fastq_r2=$(readlink -f fastq/${sample}_R2_001.fastq.gz)
+indir=fastq
+fastq_r1=$(readlink -f $indir/${sample}_R1.fastq.gz)
+fastq_r2=$(readlink -f $indir/${sample}_R2.fastq.gz)
 
 data_line="$sample_code $insert_stats $fastq_r1 $fastq_r2"
 echo $data_line

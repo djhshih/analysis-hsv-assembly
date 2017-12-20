@@ -6,21 +6,23 @@ IFS=$'\n\t'
 
 sample=$1
 
-#indir=masurca/${sample}/CA/9-terminator
-#outdir=blast/masurca/${sample}
+#indir=sga/${sample}
+#outdir=blast/sga/${sample}
 
-indir=masurca/trimmed/${sample}/CA/9-terminator
-outdir=blast/masurca/trimmed/${sample}
+#indir=sga/trimmed/${sample}
+#outdir=blast/sga/trimmed/${sample}
+
+indir=sga/trimmed-filtered/${sample}
+outdir=blast/sga/trimmed-filtered/${sample}
 
 blastoutfile=${outdir}/blastn_hsv.tsv
 blastbed=${outdir}/blastn_hsv.bed
 
-mkdir -p $outdir 
-# combine scaffolds and unitigs
-cat ${indir}/genome.{scf,utg}.fasta > ${indir}/genome.scf.utg.fasta
+mkdir -p $outdir
+
 
 blastn \
-	-query ${indir}/genome.scf.utg.fasta \
+	-query ${indir}/sga-scaffolds.fa \
 	-db ref/hsv/hsv.fasta \
 	-outfmt 6 \
 	-out $blastoutfile
@@ -37,19 +39,19 @@ blastn \
 #cut -f 2,9,10,1,11 $blastoutfile
 
 blastn \
-	-query ${indir}/genome.scf.utg.fasta \
+	-query ${indir}/sga-scaffolds.fa \
 	-db ref/csabaeus/csabaeus_mito.fasta \
 	-outfmt 6 \
 	-out $outdir/blastn_csabaeus_mito.tsv
 
 blastn \
-	-query ${indir}/genome.scf.utg.fasta \
+	-query ${indir}/sga-scaffolds.fa \
 	-db ref/ecoli/ecoli.fasta \
 	-outfmt 6 -max_hsps 2 \
 	-out $outdir/blastn_ecoli.tsv
 
 blastn \
-	-query ${indir}/genome.scf.utg.fasta \
+	-query ${indir}/sga-scaffolds.fa \
 	-db ref/lacz/lacz_ecoli.fasta \
 	-outfmt 6 \
 	-out $outdir/blastn_lacz.tsv

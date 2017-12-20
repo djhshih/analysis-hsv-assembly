@@ -7,11 +7,16 @@ IFS=$'\n\t'
 sample=$1
 
 ref=ref/hsv/combined_hsv_lacz.fasta
-indir=fastq
-fastq1=$indir/${sample}_R1_001.fastq.gz
-fastq2=$indir/${sample}_R2_001.fastq.gz
 
-outdir=fastq/filtered
+#indir=fastq
+#outdir=fastq/filtered
+
+indir=cutadapt
+outdir=fastq/trimmed-filtered
+
+fastq1=$indir/${sample}_R1.fastq.gz
+fastq2=$indir/${sample}_R2.fastq.gz
+
 bamstem=$outdir/${sample}
 tmpbam=$bamstem.bam
 mergedbam=$bamstem.merged.bam
@@ -37,10 +42,10 @@ samtools merge $mergedbam $bamstem.mapped.bam $bamstem.unmapped.matemapped.bam
 ./bam2fastq.sh $mergedbam $outdir
 
 # sort and index bam file
-#samtools sort $mergedbam > $outbam
-#samtools index $outbam
+samtools sort $mergedbam > $outbam
+samtools index $outbam
 
-#rm -f $tmpbam
+rm -f $tmpbam
 rm -f $mergedbam
 rm -f $bamstem.mapped.bam
 rm -f $bamstem.unmapped.matemapped.bam

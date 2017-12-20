@@ -8,6 +8,10 @@ for sample in $(cat samples.txt); do
 	bam=input/${sample}.sorted.bam
 	unmapped=unmapped/${sample}.unmapped.bam
 
+	#./fastqc.sh $sample
+
+	#./cutadapt.sh $sample
+
 	#./picard.sh $bam
 
 	#./bam2fastq.sh $bam fastq
@@ -26,6 +30,9 @@ for sample in $(cat samples.txt); do
 	# depends: masurca
 	#./blast-masurca-scaffolds.sh $sample
 
+	# depends: sga
+	#./blast-sga-scaffolds.sh $sample
+
 	# depends: bam2fastq_unmapped
 	#./align-unmapped-to-lacz.sh $sample
 
@@ -35,6 +42,22 @@ for sample in $(cat samples.txt); do
 	# depends: bam2fastq
 	#./filter-reads.sh $sample
 	
-	# dpends: filter-reads
-	./masurca-filtered.sh $sample
+	# depends: filter-reads
+	#./masurca-filtered.sh $sample
+
+	# depends: cutadapt
+	#./masurca-trimmed.sh $sample
+
+	# depends: cutadapt
+	#./sga-trimmed.sh $sample
+
+	# depends: filter-reads
+	#./sga-filtered.sh $sample
+
+	#./masurca-clean.sh $sample
+	#./sga-clean.sh $sample
+
+	# depends: sga
+	./quast-sga.sh $sample
+
 done
