@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/home/dshih/aliis/cole-peters/hsv/ref/hsv/hsv.fasta" hasGeneTrack="false" hasSequenceTrack="true" locus="GU734771.1:143172-147151" path="/home/dshih/aliis/cole-peters/hsv/investigate/trimmed-filtered-scaffolds_hsv-ref.xml" version="8">
+    <Resources>
+        <Resource path="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G207_CP3660_S1/scaffolds.bam"/>
+        <Resource path="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A-BAC_CP3660_S4/scaffolds.bam"/>
+        <Resource path="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A_CP3660_S3/scaffolds.bam"/>
+        <Resource path="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_FA6_CP3660_S2/scaffolds.bam"/>
+        <Resource path="/home/dshih/aliis/cole-peters/hsv/ref/hsv/hsv.gff3"/>
+    </Resources>
+    <Panel height="189" name="Panel1513978728887" width="1343">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_FA6_CP3660_S2/scaffolds.bam_junctions" name="scaffolds.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_FA6_CP3660_S2/scaffolds.bam" name="FA6" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="READ_STRAND" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="147" name="Panel1513978794110" width="1343">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G207_CP3660_S1/scaffolds.bam_junctions" name="scaffolds.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G207_CP3660_S1/scaffolds.bam" name="G207" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="READ_STRAND" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="175" name="Panel1513978829895" width="1343">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A_CP3660_S3/scaffolds.bam_junctions" name="scaffolds.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A_CP3660_S3/scaffolds.bam" name="G47A" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="READ_STRAND" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="175" name="Panel1513978849013" width="1343">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A-BAC_CP3660_S4/scaffolds.bam_junctions" name="scaffolds.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/home/dshih/aliis/cole-peters/hsv/aligned-scaffolds/sga/trimmed-filtered/032217_G47A-BAC_CP3660_S4/scaffolds.bam" name="G47A-BAC" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="READ_STRAND" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="250" name="FeaturePanel" width="1343">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/home/dshih/aliis/cole-peters/hsv/ref/hsv/hsv.gff3" name="hsv.gff3" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.01125703564727955,0.20075046904315197,0.39587242026266417,0.6097560975609756,0.8630393996247655"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

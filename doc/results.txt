@@ -1,0 +1,18 @@
+Blasted longest masurca scaffold in each sample against the nr database.
+
+## sample 1
+scaffold maps to Homo sapiens 45S pre-ribosomal 5 (low identity)
+
+## sample 2
+scaffold maps to Chlorocebus sabaeus mitochondria genome
+
+## sample 3
+scaffold maps to Homo sapiens 45S pre-ribosomal 5 (low identity)
+
+## sample 4
+scaffold maps to E. coli K-12 strain, DH10B substrain
+(with high identity to other strains)
+
+## sample 5
+scaffold maps to Rhesus macaque and Chlorocebus sabaeus genomes (low identity)
+

@@ -1,0 +1,24 @@
+# RL1-1 deletion (first copy of RL1)
+
+g.576_1527del
+
+# LacZ insertion
+
+g.87644C
+
+A 3089 bp sequence is inserted at g.87644C (replacing the C).
+The insert sequence is:
+CCC GGG AAT
++ LacZ c.19_3075 (E. coli LacZ CP016182.2:3890853-3893927 with first 18 bp removed)
++ TAATAACCGGGCAGGGGGGATCC
+
+See lacz-insertion.fasta for insert sequence.
+
+# RL1-2 deletion (second copy of RL2)
+
+g.124670_125621del
+
+# US12 deletion
+
+g.145164_145521del
+

@@ -1,0 +1,81 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ref/hsv/hsv.fasta
+           1 sequences; 152,151 total letters
+
+
+
+Query= s2_g.135377G_mismatch
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+GU734771.1  Human herpesvirus 1 strain F, complete genome             145     2e-37
+
+
+>GU734771.1 Human herpesvirus 1 strain F, complete genome
+Length=152151
+
+ Score = 145 bits (78),  Expect = 2e-37
+ Identities = 78/78 (100%), Gaps = 0/78 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCACCCGCGTTCGTGCCTTCCCGCAGGAGGAACGTCCTCGTCGAGGCGACCGGCGGCGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  132377  CTCACCCGCGTTCGTGCCTTCCCGCAGGAGGAACGTCCTCGTCGAGGCGACCGGCGGCGA  132436
+
+Query  61      CCGTTGCGTGGACCGCTT  78
+               ||||||||||||||||||
+Sbjct  132437  CCGTTGCGTGGACCGCTT  132454
+
+
+ Score = 145 bits (78),  Expect = 2e-37
+ Identities = 78/78 (100%), Gaps = 0/78 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCACCCGCGTTCGTGCCTTCCCGCAGGAGGAACGTCCTCGTCGAGGCGACCGGCGGCGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  145563  CTCACCCGCGTTCGTGCCTTCCCGCAGGAGGAACGTCCTCGTCGAGGCGACCGGCGGCGA  145504
+
+Query  61      CCGTTGCGTGGACCGCTT  78
+               ||||||||||||||||||
+Sbjct  145503  CCGTTGCGTGGACCGCTT  145486
+
+
+ Score = 71.3 bits (38),  Expect = 3e-15
+ Identities = 40/41 (98%), Gaps = 0/41 (0%)
+ Strand=Plus/Minus
+
+Query  38      CTCGTCGAGGCGACCGGCGGCGACCGTTGCGTGGACCGCTT  78
+               ||||||| |||||||||||||||||||||||||||||||||
+Sbjct  145481  CTCGTCGGGGCGACCGGCGGCGACCGTTGCGTGGACCGCTT  145441
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 9584568
+
+
+  Database: ref/hsv/hsv.fasta
+    Posted date:  Aug 25, 2017  5:26 PM
+  Number of letters in database: 152,151
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
