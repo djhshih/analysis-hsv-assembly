@@ -8,7 +8,7 @@ for sample in $(cat samples.txt); do
 	bam=input/${sample}.sorted.bam
 	unmapped=unmapped/${sample}.unmapped.bam
 
-	./revertbam.sh $bam ubam
+	#./revertbam.sh $bam ubam
 
 	#./fastqc.sh $sample
 
@@ -22,6 +22,9 @@ for sample in $(cat samples.txt); do
 
 	# depends: extract-unmapped
 	#./bam2fastq.sh $unmapped unmapped/fastq
+
+	# depends: bam2fastq
+	./align-reads-to-custom-ref.sh $sample
 
 	# depends: bam2fastq, picard
 	#./masurca.sh $sample
@@ -58,8 +61,29 @@ for sample in $(cat samples.txt); do
 
 	#./masurca-clean.sh $sample
 	#./sga-clean.sh $sample
+	
+	# depends: sga
+	#./align-scaffolds.sh $sample
+
+	# depends: sga
+	#./align-scaffolds-custom-ref.sh $sample
 
 	# depends: sga
 	#./quast-sga.sh $sample
+	
+	# depends: ordered
+	#./quast-ordered.sh $sample
+
+	# depends: ordered
+	#./quast-ordered-custom-ref.sh $sample
+
+	# depends: sga
+	#./order-scaffolds.sh $sample	
+
+	# depends: sga
+	#./order-scaffolds-custom-ref.sh $sample	
+	
+	# dpends: order-scaffolds
+	#./make-blast-db-scaffolds.sh $sample	
 
 done

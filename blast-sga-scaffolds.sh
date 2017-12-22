@@ -27,7 +27,7 @@ blastn \
 	-outfmt 6 \
 	-out $blastoutfile
 
-# default settings did not produce different alignemtns compared with
+# default settings did not produce different alignments compared with
 # least stringent blastn settings:
 # -reward 5 -penalty -4 -gapopen 8 -gapextend 6
 

@@ -1,13 +1,12 @@
 #!/bin/bash
 
-
 sample=$1
 
 scaffolds=sga/trimmed-filtered/$sample/sga-scaffolds.fa
-outdir=aligned-scaffolds/sga/trimmed-filtered/$sample
+outdir=aligned-scaffolds/sga/trimmed-filtered-custom-ref/$sample
 outbam=$outdir/sga-scaffolds.bam
 
-ref=ref/hsv/hsv.fasta
+ref=custom-ref/$sample/ref.fasta
 
 mkdir -p $outdir
 
